@@ -14,7 +14,25 @@ MonoBehaviour:
   variables:
     floatVariables: []
     intVariables: []
-    boolVariables: []
+    boolVariables:
+    - useVariable: 1
+      name: BlueInSlot2
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: GreenInSlot1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: RedInSlot3
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     stringVariables: []
     vector2Variables: []
     vector3Variables: []
@@ -29,7 +47,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 
+    variableCategoryIDs: 000000000000000000000000
   events:
   - TutorialHintsPanelPresented
   - TutorialHintsPanelDismissed
